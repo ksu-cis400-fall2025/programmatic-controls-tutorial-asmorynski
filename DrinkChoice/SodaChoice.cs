@@ -10,7 +10,7 @@ namespace DrinkChoice
     public class SodaChoice : INotifyPropertyChanged
     {
 
-        public event PropertyChangedEventHandler? PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged; //test
 
         public SodaType Soda { get; init; }
 
